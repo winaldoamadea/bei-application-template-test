@@ -19,7 +19,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath "com.traveloka.common.gradle:java-base-plugin:7.2.12"
+        classpath "com.traveloka.common.gradle:java-base-plugin:7.3.11"
     }
 }
 
@@ -27,7 +27,7 @@ group "com.traveloka.<YOUR_MAVEN_SUBDOMAIN>"
 apply plugin: "com.traveloka.common.gradle.base-root"
 
 wrapper {
-    gradleVersion = "7.1.1"
+    gradleVersion = "7.6"
     distributionType = "bin"
 }
 
@@ -58,10 +58,6 @@ subprojects {
                 awsIm(AwsImAuthentication)
             }
         }
-        maven {
-            url "https://maven-central-asia.storage-download.googleapis.com/repos/central/data"
-        }
-        jcenter()
         mavenLocal()
     }
 
