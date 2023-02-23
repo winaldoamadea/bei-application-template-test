@@ -1,0 +1,3 @@
+
+apply plugin: "com.traveloka.common.gradle.base-library"
+apply from: "$rootDir/gradle/publishing.gradle"

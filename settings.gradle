@@ -10,3 +10,7 @@ def includeSubdirectories() {
 }
 
 includeSubdirectories()
+include 'bootcamp-addition-api'
+include 'bootcamp-addition-impl'
+include 'bootcamp-addition-rpc'
+
