@@ -1,11 +1,11 @@
-package src.test.java.com.traveloka.bootcamp.addition.service;
+package com.traveloka.bootcamp.addition.service;
 
-import src.main.java.com.traveloka.bootcamp.addition.model.AddRequest;
-import src.main.java.com.traveloka.bootcamp.addition.model.AddResponse;
+import com.traveloka.bootcamp.addition.model.AddRequest;
+import com.traveloka.bootcamp.addition.model.AddResponse;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import src.main.java.com.traveloka.bootcamp.addition.service.AdditionService;
-import src.main.java.com.traveloka.bootcamp.addition.service.AdditionServiceImpl;
+import com.traveloka.bootcamp.addition.service.AdditionService;
+import com.traveloka.bootcamp.addition.service.AdditionServiceImpl;
 
 import static org.testng.Assert.assertEquals;
 

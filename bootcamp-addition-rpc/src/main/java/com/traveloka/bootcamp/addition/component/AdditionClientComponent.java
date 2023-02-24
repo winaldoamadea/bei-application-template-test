@@ -1,11 +1,11 @@
 
-package src.main.java.com.traveloka.bootcamp.addition.component;
+package com.traveloka.bootcamp.addition.component;
 
 import com.traveloka.common.concurrent.ConcurrentComponent;
 import com.traveloka.common.http.HttpClientComponent;
 import com.traveloka.common.monitor.OnlineMonitorComponent;
 import org.dk.rpc.client.RpcClientSingleEndpointComponent;
-import src.main.java.com.traveloka.bootcamp.addition.service.AdditionService;
+import com.traveloka.bootcamp.addition.service.AdditionService;
 
 public class AdditionClientComponent implements AdditionComponent {
     private AdditionService additionService;

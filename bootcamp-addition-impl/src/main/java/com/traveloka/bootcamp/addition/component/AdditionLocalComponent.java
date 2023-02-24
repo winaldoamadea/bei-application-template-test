@@ -1,7 +1,7 @@
-package src.main.java.com.traveloka.bootcamp.addition.component;
+package com.traveloka.bootcamp.addition.component;
 
-import src.main.java.com.traveloka.bootcamp.addition.service.AdditionService;
-import src.main.java.com.traveloka.bootcamp.addition.service.AdditionServiceImpl;
+import com.traveloka.bootcamp.addition.service.AdditionService;
+import com.traveloka.bootcamp.addition.service.AdditionServiceImpl;
 
 public class AdditionLocalComponent implements AdditionComponent {
     private final AdditionService additionService;

@@ -1,6 +1,6 @@
-package src.main.java.com.traveloka.bootcamp.addition.service;
-import src.main.java.com.traveloka.bootcamp.addition.model.AddRequest;
-import src.main.java.com.traveloka.bootcamp.addition.model.AddResponse;
+package com.traveloka.bootcamp.addition.service;
+import com.traveloka.bootcamp.addition.model.AddRequest;
+import com.traveloka.bootcamp.addition.model.AddResponse;
 public interface AdditionService {
     /**
      * Calculate a + b.

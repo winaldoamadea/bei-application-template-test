@@ -1,4 +1,4 @@
-package src.main.java.com.traveloka.bootcamp.addition.model;
+package com.traveloka.bootcamp.addition.model;
 
 public class AddResponse {
     private int result;
